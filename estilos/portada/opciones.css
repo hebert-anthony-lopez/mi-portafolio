@@ -1,0 +1,351 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 24 ene. 2025, 12:58:22
+    Author     : Hebert Lopez
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0px 0px 0px 0px; /*top right botton left*/
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+body{
+    background: #FFF8DF;
+}
+.cabecera{
+    background: #FB5D02; 
+    height:120px;
+}
+
+.logoIzq{
+    float: left;
+    height: 100px;
+    margin: 10px 0px 10px 20px;
+}
+
+.logoDer{
+    float: right;
+    height: 100px;
+    margin: 10px 20px 10px 0px;
+}
+
+.opciones{
+    margin: auto;
+    background:#FCB635;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.center {
+    float: none;
+    margin: 5px auto 0px auto;
+    font-weight: bold;
+    /*pointer-events: none; cancelar eventos*/
+}
+.menu-horizontal > .center:hover{
+    background:#FCB635;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+    background-color: #FAC383;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #8C8C8C;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: #FAD12F;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: #000000;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.carrusel-slide{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.carrusel-slide ul{
+    display: flex;
+    padding: 0px;
+    width: 400%; /*cantidad de imagenes*/
+    
+    animation: cambio 16s infinite;
+    animation-direction: alternate; /*Reversa*/
+    animation-timing-function: ease-in-out; /*tiempo de funcion*/
+}
+
+.carrusel-slide li{
+    width: 100%;
+    list-style: none;
+}
+
+.carrusel-slide img{
+    width: 100%;
+    height: 300px;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+.cuerpo{
+    
+}
+
+.caja{
+    display: table-cell;
+    padding: 5px;
+    width: 50%;
+}
+
+.caja:nth-child(1) h4{
+    background: #9E0D08;
+    text-align: center;
+    color: #DEDEDE;
+    width: 100%;
+    border-style: none;
+    font-size: xx-large;
+}
+
+.caja:nth-child(1) div{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.caja:nth-child(1) ul{
+    display: flex;
+    padding: 0px;
+    width: 400%; /*cantidad de imagenes*/
+    
+    animation: noticia 40s infinite;
+    animation-direction: alternate; /*Reversa*/
+    animation-timing-function: ease-in-out; /*tiempo de funcion*/
+}
+
+.caja:nth-child(1) li{
+    width: 100%;
+    list-style: none;
+}
+
+.caja:nth-child(1) img{
+    width: 100%;
+    height: 300px;
+}
+.caja:nth-child(1) a{
+    text-decoration: none;
+}
+.caja:nth-child(1) a > p{
+    color: #000000;
+    text-align: center; 
+    font-size: large;
+}
+
+@keyframes noticia{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+.caja:nth-child(2) h4{
+    background: #DB4B23;
+    text-align: center;
+    color: #000000;
+    width: 100%;
+    margin: 0;
+    border-style: none;
+    font-size: xx-large;
+}
+
+.caja:nth-child(2) div{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+}
+
+
+.caja:nth-child(2) ul{
+    display: flex;
+    padding: 5px;
+    width: 300%; /*cantidad de imagenes*/
+    height: 400px;
+    animation: libro 20s infinite;
+    animation-direction: alternate; /*Reversa*/
+    animation-timing-function: ease-in-out; /*tiempo de funcion*/
+}
+
+@keyframes libro{
+    0% {margin-left: 0;}
+    30% {margin-left: 0;}
+    
+    35% {margin-left: -100%;}
+    60% {margin-left: -100%;}
+    
+    65% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+.caja:nth-child(2) li{
+    width: 100%;
+    margin: 0px 20px 0px 20px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: 5px solid transparent;
+    box-shadow: 10px 5px 5px #DEDEDE;    
+    list-style: none;
+    transition: 2s ease; /*hover*/
+}
+
+.caja:nth-child(2) ul li:hover{ 
+    border-color: #9E0D08;
+}
+.caja:nth-child(2) img{
+    width: 50%;
+    height: 300px;
+}
+.caja:nth-child(2) a{
+    text-decoration: none;
+}
+.caja:nth-child(2) a > center > p{
+    color: #000000;
+    text-align: center; 
+    font-size: medium;
+    background: #EB9871;
+    width: 70%;
+    border-radius: 50px;
+}
+
+.caja:nth-child(2) button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: #9E0D08;
+    background: none;
+    margin: 10px 20px 12px 20px;
+    border: 2px solid #FCB635;
+    transition: 0.5s ease;
+}
+.caja:nth-child(2) button:hover{
+    color: #FFFFFF;
+    background: #9E0D08;
+}
+
+footer{
+    background:#FCB635;
+}
+
+.footer-principal{
+    display: flex;
+    margin: 50px 30px 50px 30px;
+    padding: 70px 200px 10px 200px;
+}
+.pie-colum1{
+    padding: 0px 20px 0px 20px;
+}
+.pie-colum1 h3{
+    text-align: center;    
+    margin-bottom: 10px;
+}
+
+.pie-colum2{
+    padding: 0px 10px 0px 10px;
+    margin-left: 150px;
+}
+.pie-colum2 h3{
+    text-align: center;   
+    margin-bottom: 10px;
+}
+
+.pie-colum2 a{
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 50%;
+    font-size: 4em;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.pie-colum2 a i{
+    color: #000000;
+    opacity: 0.9;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.pie-colum2 a:hover{
+    background: #000000;
+    transition: 0.5s;
+}
+
+.pie-colum2 a:hover i{
+    color: #FCB635;
+    transition: 0.5s;
+}
+
+.pie-copy{
+    width: 100%;
+    background: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.pie-copy p{
+    color: #FFFFFF;
+}
+
+.diseñado{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}

@@ -1,0 +1,155 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 feb. 2025, 10:55:40
+    Author     : Hebert Lopez
+*/
+
+*{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecera{
+    background: #FB5D02; 
+    height:80px;
+}
+.logoIzq{
+    float: left;
+    height: 70px;
+    margin: 10px 0px 10px 20px;
+    padding-bottom: 10px;
+}
+
+.logoDer{
+    float: right;
+    height: 70px;
+    padding-bottom: 10px;
+    margin: 10px 20px 15px 0px;
+}
+
+footer{
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.footer-principal{
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+.login-contenedor{
+    width: 100%;
+    height: 60vh;
+    background: #FFF8DF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-contenedor{
+    width: 100%;
+    max-width: 650px;
+    background: #DEDEDE;
+    padding: 20px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+    height: 100%;
+    max-height: 300px;
+    padding-top: 40px;
+}
+
+.form-contenedor h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #9E0D08;
+    position: relative;
+}
+
+.form-contenedor h1::after{
+    content: '';
+    width: 500px;
+    height: 4px;
+    border-radius: 3px;
+    background: #000000;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-campo{
+    background: #8C8C8C;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    transition: max-height 0.5s;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 15px;
+    color: #FFF8DF;
+}
+
+input::placeholder{
+    color: #FFF8DF;
+    font-size: 22px;
+}
+
+.input-campo i{
+    margin-left: 15px;
+    color: #9E0D08;
+    font-size: 30px;
+}
+
+form p{
+    color: #8C8C8C;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.boton-campo{
+    width: 100%;
+    display: flex;/*permite la posicion*/
+    justify-content: space-between;
+    justify-content: center;   
+    align-items: center;
+}
+
+.boton-campo button{
+    flex-basis: 100%; /*ayuda a justificar el contenido*/
+    font-size: 16px;
+    background: #FAD12F;
+    color: #000000;
+    height: 40px;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.input-contenedor{
+    height: 110px;
+    margin-bottom: 0px;
+}
+
+.boton-campo a{
+    width: 100%;
+    display: flex;/*permite la posicion*/
+    justify-content: space-between;
+    justify-content: center;   
+    align-items: center;
+    margin: 30px 5px 0 5px;
+}

@@ -1,0 +1,227 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 ene. 2025, 13:01:27
+    Author     : Hebert Lopez
+*/
+.preMIVI{
+    width: 50%; /* Ancho del div */
+    margin: auto; /* Centrado horizontal */
+    background: #f0f0f0;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+.preMIVI h1{
+    color: #E6A72B;
+    font-size: 3em;
+    text-align: left;
+}
+
+.preMIVI h3{
+    color: #E6A72B;
+    font-size: 250%;
+    text-align: center; /* Alinea el texto dentro del div */
+}
+
+
+.mivi{
+    display: flex;
+}
+
+.mision-vision{
+    margin: 20px 30px 0px 30px;
+    text-align: justify;
+}
+
+.objetivos h1{
+    margin-top: 20px;
+}
+
+.objetivos li{
+    margin-left: 10%;
+}
+
+.unfvHistoria{
+    width: 90%; /* Ancho del div */
+    margin: auto; /* Centrado horizontal */
+    background: #f0f0f0;
+    padding: 30px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.unfvHistoria p{
+    text-align: justify;
+}
+
+.unfvHistoria p:first-letter{
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.unfvHistoria img{
+    height: 200px;
+    margin: 0 0 0 20px;
+}
+
+.unfvCentro{
+    width: 90%; /* Ancho del div */
+    background: #f0f0f0;
+    margin: auto; /* Centrado horizontal */
+    padding: 30px;
+    text-align: center;
+}
+
+.unfvCentro h1{
+    color: #E6A72B;
+    font-size: 3em;
+    text-align: left;
+    padding-left: 15px; 
+}
+
+.unfvPersonal{
+    width: 90%; /* Ancho del div */
+    margin: auto; /* Centrado horizontal */
+    background: #f0f0f0;
+    padding: 30px;
+    margin-top: 50px;
+    
+}
+
+.unfvPersonal h1{
+    color: #E6A72B;
+    font-size: 3em;
+    text-align: center;
+    padding-left: 15px; 
+}
+
+.perHorarioTitulo{
+    width: 90%; /* Ancho del div */
+    background: #f0f0f0;
+    margin: auto; /* Centrado horizontal */
+    display: flex;
+    text-align: center;
+}
+
+.perHorarioTitulo .colT1 , .colT2 , .colT3,.colT4{
+    width: 25%;
+    background: #9E0D08;
+    border: solid #FFF8DF 3px;
+}
+.perHorarioTitulo p{
+    color: #FFF8DF;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 20px;
+}
+
+.perHorarioInfo{
+    width: 90%; /* Ancho del div */
+    background: #f0f0f0;
+    margin: auto; /* Centrado horizontal */
+    display: flex;
+    text-align: center;
+}
+
+.perHorarioInfo .col1 , .col2 , .col3,.col4{
+    width: 25%;
+    background: #FFF8DF;
+    border: solid #9E0D08 3px;
+    margin: 0 0px 2px 1px;
+}
+
+.perHorarioInfo p{
+    padding: 5px;
+}
+
+.perHorarioInfo a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.unfvCapacitacion{
+    width: 90%;
+    background: #f0f0f0;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.unfvCapacitacion h1{
+    color: #E6A72B;
+    text-align: center; 
+}
+
+.capaConte{
+    display: flex;    
+    text-align: center;
+}
+
+.capaConte .capa1{
+    width: 70%;
+    margin-left: 50px;
+}
+
+.capaConte li{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.capaConte .capa2{
+    width: 30%;
+    
+}
+
+.capaConte button{
+    width: 50%;
+    height: 100%;
+    font-size: 8em;
+    border-radius: 10%;
+    color: #E6A72B;
+    background: #FFF8DF;
+    border: 5px solid #FCB635;
+    transition: 0.5s ease;
+}
+
+
+.capaConte button:hover{
+    color: #FFF8DF;
+    background: #000000;
+    border: 5px solid #9E0D08;
+}
+
+.preServ{
+    max-width: 700px;
+    width: 70%; /* Ancho del div */
+    margin: auto; /* Centrado horizontal */
+    background: #f0f0f0;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+.preServ .presentacion h1{
+    color: #000000;
+    font-size: 2em;
+    text-align: left;
+}
+
+.preServ .mivi h3{
+    color: #9E0D08;
+    font-size: 20px;
+}
+
+.objetivos{
+    margin-left: 20px;
+}
+.objetivos h1{
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: italic;
+    color: #9E0D08;
+}
